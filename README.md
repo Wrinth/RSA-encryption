@@ -61,13 +61,17 @@ Since Encrypt is just performing simple HTTPS request to to the web server to se
 
 3. UML Diagrams:
 - Class Diagram/Domain Model:
- 
+![Class Diagram/Domain Model](/01.PNG)
+
 - Use Case Diagram:
+![Use Case Diagram](/02.PNG)
  
 - Activity Diagram:
+![Activity Diagram 1](/03.PNG)
+![Activity Diagram 2](/04.PNG)
  
 - Sequence Diagram:
- 
+![Sequence Diagram](/05.PNG)
 
 
 4. Technology Requirements:
@@ -83,19 +87,19 @@ Since Encrypt is just performing simple HTTPS request to to the web server to se
 
 - Hardware Requirements:
   - Minimum Requirements:
-  * CPU: Single Core 2.4 GHZ
-  * RAM: 512 MB
-  * Graphics Card: Nvidia GeForce 5xxx series or equivalent
-  * Operating System: Windows XP
-  * Hard Drive: 5 Gigabytes
-  * Network: Broadband Recommended
+    * CPU: Single Core 2.4 GHZ
+    * RAM: 512 MB
+    * Graphics Card: Nvidia GeForce 5xxx series or equivalent
+    * Operating System: Windows XP
+    * Hard Drive: 5 Gigabytes
+    * Network: Broadband Recommended
   - Recommended Requirements:
-  * CPU: Duo Core or higher
-  * RAM: 1 GB
-  * Graphics Card: Nvidia GeForce 7xxx series or equivalent
-  * Operating System: Windows XP or higher
-  * Hard Drive: 6 Gigabytes or more
-  * Network: Broadband Recommended
+    * CPU: Duo Core or higher
+    * RAM: 1 GB
+    * Graphics Card: Nvidia GeForce 7xxx series or equivalent
+    * Operating System: Windows XP or higher
+    * Hard Drive: 6 Gigabytes or more
+    * Network: Broadband Recommended
 
 
 ## Project Design
@@ -103,14 +107,19 @@ Since Encrypt is just performing simple HTTPS request to to the web server to se
 This project is designed following the Model-View-Control design path. It has a MySQL database to store data, and the database is located in our home server. Since this is a web application, we need to design its front-end, in this project, using HTML, CSS, and JavaScript (The HTTPS request is done inside the JavaScript). For the back-end, we developed an API to request data from the database using PHP.
 
 1. Project Architecture Design:
- 
+![Project Architecture Design](/Architecture design.jpg)
 
 2. Database Design:
- 
+![Database Design](/Database design.PNG)
 
 3. User Interface Design:
-   
-   
+![User Interface Design 1](/screen_01.png)
+![User Interface Design 2](/screen_02.png)
+![User Interface Design 3](/screen_03.png)
+![User Interface Design 4](/screen_04.png)
+![User Interface Design 5](/screen_05.png)
+![User Interface Design 6](/screen_06.png)
+
 
 ## Project Implementation
 
@@ -126,16 +135,3 @@ To create the website, we used a text editor and saved it as a HTML and CSS file
 
 A few particular issues were the design and layout of the the website, and having a working database. The design and layout of the website needed everyone’s agreement of how the layout should be. Solving this issue was more of a trial and error until everyone agreed to the design we all liked. But when testing the database, we noticed the information we used for the user account did not store properly. To fix this issue, we looked over the code to make sure there was no bugs or errors and fixed whatever was needed to be fixed.
 
-
-## Project Organization and Schedule
-
-1. Project Schedule
- 
-
-2. Project Plan
-
-Our project consisted of three team members. Each had a different role, ultimately leading up to our end goal. Initially, we had plans to completely finish the project with a working code, but as time allowed we were unable to implement certain aspects as well as the features we wanted to include. Aaron was in charge of scheduling, presentations, and making sure the team was on track with the initial schedule. The task to create and connect a database using DB2 was left unfinished due to licensing issues. Kenny was in charge of doing the main research on RSA and different ways to implement it. Assigned a supportive role, Kenny worked with John to aid him with whatever was needed. Lastly, John was in charge of most of the back-end work as he is more experienced with design and implementation. Together as a team, we researched and came up with realistic end goals, as well as the tasks we needed to complete in order to move forward with this project.
- 
-3. Recommendation for Future Research
-
-Our next step in this project would definitely be to finish the back-end and the front-end design. We came up with the gist of what we needed to do but that did not exactly correlate with was actually done. If we were allowed more time, the project would have been completed but perhaps not with the extra features we planned on implementing.  
